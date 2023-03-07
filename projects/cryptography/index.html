@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cryptography Methods</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Cryptography Methods</h1>
+		<form>
+			<label for="inputText">Text:</label>
+			<input type="text" id="inputText" name="inputText">
+			<p>
+			<button id="md5Button">MD5</button>
+			<button id="sha1Button">SHA-1</button>
+			<button id="sha256Button">SHA-256</button>
+			<p>
+		</form>
+		<div id="output">
+			<p id="md5Output"></p>
+			<p id="sha1Output"></p>
+			<p id="sha256Output"></p>
+		</div>
+	</div>
+	<script src="crypto.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
